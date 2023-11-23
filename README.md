@@ -1,6 +1,6 @@
 # AUTH-API
 
-# AWS Endpoits
+# AWS Endpoints
 
 - registro de usuário :
   envie uma requisição POST para : 54.196.209.161:8000/api/v1/auth/register
