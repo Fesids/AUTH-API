@@ -2,8 +2,8 @@
 
 # AWS Endpoints
 
-- registro de usuário :
-  envie uma requisição POST para : 54.196.209.161:8000/api/v1/auth/register
+- registro de usuário : <br />
+  envie uma requisição POST para : 54.196.209.161:8000/api/v1/auth/register <br />
 
   exemplo de JSON a ser enviado :
   {
@@ -14,8 +14,8 @@
   }
   
 
-- login de usuário :
-  envie uma requisição POST para : 54.196.209.161:8000/api/v1/auth/login
+- login de usuário : <br />
+  envie uma requisição POST para : 54.196.209.161:8000/api/v1/auth/login <br />
 
    exemplo de JSON a ser enviado :
     {
@@ -24,7 +24,7 @@
     }
 
 
-- recuperar detalhes do usuário :
+- recuperar detalhes do usuário : <br />
      envie uma requisição GET, contendo uma Header no seguinte formato {Authorization : "Bearer token"}   para : 54.196.209.161:8000/api/v1/auth
 
   
