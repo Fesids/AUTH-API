@@ -47,7 +47,7 @@ export class UserService {
         await this.phoneRepository.save(id, phone)
       }
 
-      const authToken = jwt.sign({ id }, 'jwtkey')
+      const authToken = jwt.sign({ id }, 'jwtkey', { expiresIn: 1800 })
 
       const userReturnBody = {
         id,
@@ -92,7 +92,7 @@ export class UserService {
 
       await this.repository.updateLogin(id)
 
-      const authToken = jwt.sign({ id }, 'jwtkey', { expiresIn: 90 })
+      const authToken = jwt.sign({ id }, 'jwtkey', { expiresIn: 1800 })
 
       const userReturnBody = {
         id,
