@@ -6,21 +6,21 @@
   envie uma requisição POST para : 54.196.209.161:8000/api/v1/auth/register <br />
 
   exemplo de JSON a ser enviado :
-  {
-    "nome": "exname",
-    "email": "ex@gmail.com",
-    "senha": "exemplo",
-    "telefones": [{"numero": "000000", "ddd": "12"}, {"numero": "000000", "ddd": "11"}]
+  > { <br />
+    "nome": "exname", <br />
+    "email": "ex@gmail.com", <br />
+    "senha": "exemplo", <br />
+    "telefones": [{"numero": "000000", "ddd": "12"}, {"numero": "000000", "ddd": "11"}]<br />
   }
   
 
 - login de usuário : <br />
-  envie uma requisição POST para : 54.196.209.161:8000/api/v1/auth/login <br />
+  envie uma requisição POST para : <br /> >54.196.209.161:8000/api/v1/auth/login <br />
 
    exemplo de JSON a ser enviado :
-    {
-      "email": "ex@gmail.com",
-      "senha": "exemplo"
+    > {<br />
+      "email": "ex@gmail.com",<br />
+      "senha": "exemplo"<br />
     }
 
 
