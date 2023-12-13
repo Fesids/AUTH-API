@@ -3,7 +3,7 @@
 # AWS Endpoints
 
 - registro de usuário : <br />
-  envie uma requisição POST para : 54.196.209.161:8000/api/v1/auth/register <br />
+  envie uma requisição POST para : node-auth-api.fesids.com.br:8000/api/v1/auth/register <br />
 
   exemplo de JSON a ser enviado :
   > { <br />
@@ -15,7 +15,7 @@
   
 
 - login de usuário : <br />
-  envie uma requisição POST para : <br /> >54.196.209.161:8000/api/v1/auth/login <br />
+  envie uma requisição POST para : <br /> >node-auth-api.fesids.com.br:8000/api/v1/auth/login <br />
 
    exemplo de JSON a ser enviado :
     > {<br />
@@ -25,6 +25,6 @@
 
 
 - recuperar detalhes do usuário : <br />
-     envie uma requisição GET, contendo uma Header no seguinte formato {Authorization : "Bearer token"}   para : 54.196.209.161:8000/api/v1/auth
+     envie uma requisição GET, contendo uma Header no seguinte formato {Authorization : "Bearer token"}   para : node-auth-api.fesids.com.br:8000/api/v1/auth
 
   
