@@ -1,5 +1,11 @@
 # AUTH-API
 
+# BUILD DO PROJETO
+
+- acesse a a pasta principal do projeto e rode o comando "npm run build:dev"
+- após isso, rode o comando "npm run start:dev"
+</br>
+
 # AWS Endpoints
 
 - registro de usuário : <br />
